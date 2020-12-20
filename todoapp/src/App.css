@@ -1,0 +1,112 @@
+body {
+  background-color: darkmagenta;
+  align-items: center;
+}
+
+.mainHeader {
+  font-size: 3rem;
+}
+
+table {
+  margin: 10px auto;
+  background-color: white;
+  color: #000000;
+}
+
+td {
+  padding: 10px 50px;
+  align-content: center;
+  margin: auto;
+  font-weight: bold;
+}
+
+table, th {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgreen;
+}
+
+th {
+  font-size: 1.5rem;
+}
+
+.App {
+  text-align: center;
+  color: #ffffff;
+}
+
+button, #addButton {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.completedButton {
+  background-color: #4CAF50;
+  transition: all 0.1s ease;
+}
+
+.deleteButton {
+  background-color: firebrick;
+  transition: all 0.1s ease;
+}
+
+.toggleButton {
+  background-color: orangered;
+  transition: all 0.1s ease;
+}
+
+#addButton {
+  transition: all 0.1s ease;
+  background-color: blue;
+  display: block;
+  margin: 10px auto;
+}
+
+.completedButton:hover {
+  background-color: limegreen;
+}
+
+.deleteButton:hover {
+  background-color: red;
+}
+
+#addButton:hover {
+  background-color: cornflowerblue;
+}
+
+.toggleButton:hover {
+  background-color: orange;
+}
+
+input {
+  padding: 10px 50px;
+  text-align: center;
+}
+
+form input {
+  margin : 10px 30px;
+  padding: 10px 50px;
+}
+
+.select, select {
+  display: inline-block;
+  padding: 15px 40px;
+}
+
+.select label {
+  padding: 5px;
+}
+
+
+
+
+
